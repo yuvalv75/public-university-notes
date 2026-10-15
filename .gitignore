@@ -1,0 +1,5 @@
+.obsidian/
+**/.[!.]*/
+**/[Hh][Oo][Mm][Ee][Ww][Oo][Rr][Kk]/
+**/[Tt][Ee][Mm][Pp][Ll][Aa][Tt][Ee][Ss]/
+__pycache__/
