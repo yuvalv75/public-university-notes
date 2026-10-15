@@ -9,7 +9,9 @@ tags:
 ---
 # מבוא למדעי המחשב - הרצאה 1
 
-> [!info] סיכום קצר
+> [!NOTE]
+> **סיכום קצר**
+>
 > - **הנושא המרכזי:**
 > - **הרעיון המרכזי / מה לקחת מההרצאה:**
 
@@ -17,7 +19,9 @@ tags:
 
 ## 1. מושגים והגדרות מרכזיים
 
-> [!abstract] הגדרות ותכונות נשמרות
+> [!IMPORTANT]
+> **הגדרות ותכונות נשמרות**
+>
 > 
 
 ---
@@ -26,27 +30,38 @@ tags:
 
 ### נושא 1
 
-> [!note] הערות והסברים
+> [!NOTE]
+> **הערות והסברים**
+>
 >
 
 
-$$
+
+
+```math
 \begin{array}{|c|c|c|c|}
-  & number & base & solution\\ \hline 
+  & number & base & solution\\ \hline
   1  & 110101 & 2 & 1+4+16+32=53  \\ \hline
- 2 
+ 2
 \end{array}
-$$
+```
+
+
 בכל מספר בבסיס כלשהו, אם כל הקופסא ממולאת במספרים הכי גבוהים, נקבל את המספר שבקופסא הבא שרק התא האחרון בו ממולא פחות 1
 
 לבייס 8 צריך 3 מקומות על כל ספרה ובה מעבירים כל ספרה לבינארית .
-$$
+
+
+```math
+\begin{gathered}
 427_{8} = \begin{array}{|c|c|c|c|c|c|c|c|c|}\hline
-1 & 0 & 0 & 0 & 1 & 0 & 1 & 1 & 1 \\ \hline 
+1 & 0 & 0 & 0 & 1 & 0 & 1 & 1 & 1 \\ \hline
 \end{array}\\ \space\space\space\space\space\space\space\space\space\space\space\space\space\space\space
 \underbrace{\space\space\space  } \space\space\space\space\space\space\space\space_{ \space } \underbrace{ }_\space\space\space\space\space\space\space\space{  }\underbrace{}_{ 7 }
+\end{gathered}
+```
 
-$$
+
 
 בדומה לבייס 8, לבייס 16 צריך 4 מקומות על כל ספרה כדי לייצג אותו בבינארית.
 
